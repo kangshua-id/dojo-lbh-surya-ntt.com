@@ -112,8 +112,15 @@ body {
 ========================= */
 .section {
   padding: 60px 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
-
+.section img,
+.dojo-logo,
+.founder-photo {
+  max-width: 100%;
+  height: auto;
+}
 .section h2 {
   font-size: 28px;
   margin-bottom: 20px;
@@ -213,7 +220,7 @@ body {
 
 /* Background Variations */
 .white-transparent {
-  background: rgba(255,255,255,0.85);
+  background: rgba(149, 148, 148, 0.60);
 }
 
 .white {
@@ -701,7 +708,17 @@ table th {
     flex: 0 0 auto;               
     margin-left: auto;            
   }
-
+  .section {
+    padding: 40px 15px;
+  }
+  .dojo-container,
+  .shorinji-container,
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
   .dojo-container,
   .shorinji-container {
     flex-direction: column;
