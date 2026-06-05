@@ -220,7 +220,7 @@ body {
 
 /* Background Variations */
 .white-transparent {
-  background: rgba(149, 148, 148, 0.60);
+  background: rgba(106, 105, 105, 0.6);
 }
 
 .white {
@@ -232,7 +232,7 @@ body {
 }
 
 .image-bg {
-  background: url('../assets/juara2.jpg') no-repeat center center/cover;
+  background: url('../assets/tanding.jpg') no-repeat center center/cover;
   color: #fff;
 }
 
