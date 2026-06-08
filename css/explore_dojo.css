@@ -777,7 +777,13 @@ table th {
     font-size: 11px;
     padding: 3px 5px;
   }
-
+.dojo-left, .shorinji-left {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .dojo-right, .shorinji-right {
+    max-width: 100%;
+  }
   .logo img {
     height: 40px;
   }
